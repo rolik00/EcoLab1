@@ -70,17 +70,6 @@ typedef struct IEcoLab1VTbl {
     int16_t (ECOCALLMETHOD *polyHornerVector)(/* in */ IEcoLab1Ptr_t me, /* in */ EcoVector* roots, /* in */ uint32_t numRoots, /* out */ EcoVector** coefficients, /* out */ uint32_t* numCoefficients);
 	int16_t (ECOCALLMETHOD *polyHornerMatrix)(/* in */ IEcoLab1Ptr_t me, /* in */ EcoMatrix* mat, /* out */ EcoVector** coefficients, /* out */ uint32_t* numCoefficients);
 
-	int16_t (ECOCALLMETHOD *bucketSortIntWithK)(/* in */ IEcoLab1Ptr_t me, /* in */ int* arr, /* in */ uint32_t size, /* in */ uint32_t k, /* out */ int** sortedArr);
-	int16_t (ECOCALLMETHOD *bucketSortIntAutoK)(/* in */ IEcoLab1Ptr_t me, /* in */ int* arr, /* in */ uint32_t size, /* out */ int** sortedArr);
-	int16_t (ECOCALLMETHOD *bucketSortLongWithK)(/* in */ IEcoLab1Ptr_t me, /* in */ int64_t* arr, /* in */ uint32_t size, /* in */ uint32_t k, /* out */ int64_t** sortedArr);
-	int16_t (ECOCALLMETHOD *bucketSortLongAutoK)(/* in */ IEcoLab1Ptr_t me, /* in */ int64_t* arr, /* in */ uint32_t size, /* out */ int64_t** sortedArr);
-	int16_t (ECOCALLMETHOD *bucketSortFloatWithK)(/* in */ IEcoLab1Ptr_t me, /* in */ float* arr, /* in */ uint32_t size, /* in */ uint32_t k, /* out */ float** sortedArr);
-	int16_t (ECOCALLMETHOD *bucketSortFloatAutoK)(/* in */ IEcoLab1Ptr_t me, /* in */ float* arr, /* in */ uint32_t size, /* out */ float** sortedArr);
-	int16_t (ECOCALLMETHOD *bucketSortDoubleWithK)(/* in */ IEcoLab1Ptr_t me, /* in */ double* arr, /* in */ uint32_t size, /* in */ uint32_t k, /* out */ double** sortedArr);
-	int16_t (ECOCALLMETHOD *bucketSortDoubleAutoK)(/* in */ IEcoLab1Ptr_t me, /* in */ double* arr, /* in */ uint32_t size, /* out */ double** sortedArr);
-	int16_t (ECOCALLMETHOD *bucketSortLongDoubleWithK)(/* in */ IEcoLab1Ptr_t me, /* in */ long double* arr, /* in */ uint32_t size, /* in */ uint32_t k, /* out */ long double** sortedArr);
-	int16_t (ECOCALLMETHOD *bucketSortLongDoubleAutoK)(/* in */ IEcoLab1Ptr_t me, /* in */ long double* arr, /* in */ uint32_t size, /* out */ long double** sortedArr);
-
 } IEcoLab1VTbl, *IEcoLab1VTblPtr;
 
 interface IEcoLab1 {

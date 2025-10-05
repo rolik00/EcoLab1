@@ -18,7 +18,7 @@ _Работу выполнила: Родина Ольга 22ПИ3_
 
 **Реализация (псевдокод):**
 
-<img width="445" height="261" alt="image" src="https://github.com/user-attachments/assets/8aeec8ac-69b0-496a-aa5a-2a631b441fc4" />
+<img width="403" height="227" alt="image" src="https://github.com/user-attachments/assets/1936a31c-5008-446f-b9c1-8540358b13de" />
 
 **Сложность:** О($`N^2`$), где N - степень полинома
 
@@ -26,30 +26,29 @@ _Работу выполнила: Родина Ольга 22ПИ3_
 
 **Результаты работы алгоритмов:**
 
-<img width="361" height="445" alt="image" src="https://github.com/user-attachments/assets/5991c852-729a-4b5a-96d4-ae3d4e1c88d5" />
-<img width="465" height="447" alt="image" src="https://github.com/user-attachments/assets/f79c6511-8172-4613-bdce-e9af8cc797f4" />
-<img width="473" height="612" alt="image" src="https://github.com/user-attachments/assets/df43db85-eeab-4ff5-9da6-e7a00bd0eb2e" />
-<img width="639" height="684" alt="image" src="https://github.com/user-attachments/assets/9063414b-838f-4390-8337-4e3624312917" />
-<img width="628" height="528" alt="image" src="https://github.com/user-attachments/assets/81fa7449-95a0-45c0-afa1-78ee9bc0d26a" />
-<img width="609" height="362" alt="image" src="https://github.com/user-attachments/assets/f2a20b0c-e7f5-41b1-a581-7bc0e58e531a" />
-<img width="595" height="614" alt="image" src="https://github.com/user-attachments/assets/b5e80e01-b570-4e53-abe0-12141178e1bc" />
-<img width="661" height="772" alt="image" src="https://github.com/user-attachments/assets/620d43ba-89f3-4467-834b-0d38e861236d" />
+<img width="421" height="442" alt="image" src="https://github.com/user-attachments/assets/38c0ab34-7586-42ac-9b66-98055cd564c8" />
+<img width="475" height="444" alt="image" src="https://github.com/user-attachments/assets/a7bce912-30a6-4c52-9190-136b4356b1f7" />
+<img width="473" height="606" alt="image" src="https://github.com/user-attachments/assets/8905dbe8-6b9e-4df7-986a-78f722daf841" />
+<img width="642" height="687" alt="image" src="https://github.com/user-attachments/assets/3d682306-cf4d-4004-a5aa-722ab098d255" />
+<img width="630" height="533" alt="image" src="https://github.com/user-attachments/assets/0408e723-65ce-463a-a3ea-681681caa9b9" />
+<img width="610" height="373" alt="image" src="https://github.com/user-attachments/assets/d013f9ab-6b03-41c3-9ad2-f3a82e769a1e" />
+<img width="597" height="603" alt="image" src="https://github.com/user-attachments/assets/74cc267d-1249-4eab-a5f0-b569276d6de1" />
+<img width="664" height="777" alt="image" src="https://github.com/user-attachments/assets/99043315-9cf5-4215-a1ac-1aeca8f339ad" />
 
 _Результаты работу функции compare_algorithms:_
 
-<img width="258" height="323" alt="image" src="https://github.com/user-attachments/assets/06422c84-3a0d-4670-bbf1-28a827b503d9" />
+<img width="224" height="328" alt="image" src="https://github.com/user-attachments/assets/f28c4832-cf81-412e-93c5-6a39bc9cb406" />
 
 **Результаты из Matlab:**
 
-<img width="1261" height="554" alt="image" src="https://github.com/user-attachments/assets/631f6175-056d-43f7-a0f7-cd8453d6f9a7" />
+<img width="1033" height="453" alt="image" src="https://github.com/user-attachments/assets/dc3e886c-aae1-4887-a95c-4bb137b74646" />
 
 **Анализ:**
 
 Для анализа алгоритмов были сгенерированы полиномы степеней , где i - от 0 до 13. Корни полинома r генерировались случайным образом. Время выполнения усреднялось по 1000 итераций. Результаты приведены в миллисекундах (мс). Сравнение проводилось в функции compare_algorithms для полиномов с вещественными коэффициентами.
 
-<img width="725" height="125" alt="image" src="https://github.com/user-attachments/assets/3a814a8d-8c65-4690-a5bd-d2390c20bb37" />
-
-<img width="745" height="423" alt="image" src="https://github.com/user-attachments/assets/96de0658-7838-46f5-8467-6705770da3f8" />
+<img width="1050" height="181" alt="image" src="https://github.com/user-attachments/assets/5be13ced-ae34-4f00-ab65-a9b1ddce8e9c" />
+<img width="743" height="423" alt="image" src="https://github.com/user-attachments/assets/d315cb01-8cae-4995-878d-9c9aa9ae5997" />
 
 _Анализ результатов:_
 
